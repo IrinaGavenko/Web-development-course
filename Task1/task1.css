@@ -1,0 +1,80 @@
+.login-form {
+    width: 30%;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 1em;
+    border-radius: 1em;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.add {
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    max-width: 350px;
+}
+
+.flex-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-inner li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: -2.5em;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted #808080;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+button {
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+    border-radius: 1em;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.3s;
+    font-size: 1em;
+    background: linear-gradient(to left, #0AB45A 30%, #8228B4 100%);
+    color: white;
+    padding: 0.5em 0;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.form-title {
+    font-weight: bold;
+    margin: 0 0 1em;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 1em;
+}
+
+.underline-form {
+    position: absolute;
+    bottom: -1px;
+    height: 1px;
+    width: 0;
+    left: 50%;
+    right: 50%;
+    background: linear-gradient(to left, #0AB45A 30%, #8228B4 100%);
+}
+
+
+.link {
+    color: grey;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+}
